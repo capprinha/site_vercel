@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(212, 167, 228);
+}
+header h1{
+    color: beige;
+    font-size: 60px;
+}
+header li a{
+    text-decoration: none; 
+    color: beige;
+    font-size: 28px;
+}
+.layout{
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+}
+header{
+    background-color: rgb(178, 115, 199);
+    padding: 16px 0px;
+}
+header nav li{
+    display: inline;
+    margin-right: 8px;
+    
+}
+header .layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: #fff;
+    font-size: 45px;
+}
+h2, h3{
+    max-width: 900px;
+    width: 100%;
+    margin: 16px auto;
+    
+}
+section h2{
+    font-size: 45px;
+    color: #fff;
+}
+section h3{
+    font-size: 30px;
+    color: #fff;
+} 
+article img{
+    height: 350px;
+    margin-bottom: 16px;
+    border: solid 6px rgb(74, 0, 99);
+    padding: 4px;
+    border-radius: 45px;
+}
+.sobre{
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center; 
+}
+.sobre p, .doces p{
+    margin-right: 12px;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(74, 0, 99);
+}
+.layout_2{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: solid 6px rgb(74, 0, 99);
+    border-radius: 10px;
+}
+.doces{
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.doces img {
+    height: 300px;
+    margin-right: 12px;
+    border: solid 6px rgb(74, 0, 99);
+    padding: 4px;
+    border-radius: 40px;
+}
+#contat .contato{
+    max-width: 900px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.imagem li a img{
+    height: 30px;
+}
+form input, textarea, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 6px;
+    max-width: 300px;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+    border: none;
+
+}
+input:focus, textarea:focus{
+    outline-color: rgb(74, 0, 99);
+}
+form textarea{
+    resize: none;
+}
+.fale{
+    margin-right: 12px;
+}
+.nos{
+    margin-right: 12px;
+}
+.nos li{
+    display: inline;
+    margin-right: 8px;
+}
+.nos a{
+    text-decoration: none;
+}
+form button{
+    background-color: rgb(74, 0, 99);
+    color: #fff;
+    border: none;
+    font-family: "Josefin Sans", sans-serif;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(127, 93, 139);
+}
+.venha{
+    text-align: end;
+}
+.venha p{
+    text-align: justify;
+    color: #fff;
+}
+footer{
+    max-width: 400px;
+    width: 100%;
+    margin: 16px auto;
+}
